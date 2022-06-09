@@ -1,0 +1,164 @@
+
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #1f2937;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    min-height: 600px;
+    
+    width: 450px;
+    background: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
+    color: #1f2937;
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(255,255,255,0.36); 
+    box-shadow: 0px 5px 20px 5px rgba(255,255,255,0.36);
+    
+    
+}
+header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 180px;
+    background-image: url('nature.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#date{
+    padding-top: 120px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.content ul{
+    list-style: none;
+    padding-top: 1.4rem;
+    margin-bottom: 5rem;
+    
+}
+.content ul li{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+    
+    
+    
+}
+#btn i{
+    color: #1f2937;
+    font-size: 1.8rem;
+    float: right;
+    padding-top: 10px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+.trash{
+    float: right;
+    padding-right: 1rem;
+
+}
+
+.trash i{
+    color: #1f2937;
+    cursor: pointer;
+}
+.trash i:hover{
+    color: #ef4444;
+}
+
+
+.add{
+    margin-left: 2.4rem;
+    
+    
+    position: absolute;
+    bottom: 1.8rem;
+    
+   
+   
+}
+.add span{
+    position: relative;
+    top: 4px;
+    color: #2dd4bf;
+    padding-right: 10px;
+}
+
+.add input{
+    font-size: 1.3rem;
+    outline: 0;
+    border: 0;
+
+}
+
+.Line_through{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+i{
+    color: #2dd4bf;
+}
+
+.normal i{
+    position: relative;
+    top: -3px;
+    font-size:1.4rem;
+    padding-right: 0.7rem;
+    cursor: pointer;
+}
+
+.check i{
+    position: relative;
+    top: -3px;
+    padding-right: 0.6rem;
+    color: #2dd4bf;
+    height: 22px;
+    width: 22px;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        min-height: 100vh;
+        
+        background: white;
+        
+        border-radius: 0px;
+        
+    }
+    header{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        height: 200px;
+        
+    }
+
+}
+
+
+
+
+    
+    
+
